@@ -1,0 +1,10 @@
+name: Verify community automation
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    uses: ./.github/workflows/verify-template.yml

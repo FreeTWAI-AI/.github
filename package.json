@@ -1,0 +1,13 @@
+{
+  "name": "@freetwai/community-automation",
+  "private": true,
+  "version": "0.1.0-preview",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node scripts/verify-contracts.mjs",
+    "build": "node --check scripts/verify-contracts.mjs"
+  }
+}
